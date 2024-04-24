@@ -57,9 +57,9 @@ w-full mx-auto items-center border-2"
           
           onSubmit={submithandler}
           className="flex flex-col flex-wrap justify-center bg-gray-50 p-8 rounded-full  shadow-2xl max-w-md 
-w-full mx-auto items-center border-2"
+w-full mx-auto items-center border-2 overflow-hidden"
         >
-          <div className=" flex m-2 space-x-8 ">
+          <div className=" flex m-2 space-x-8  ">
             <label htmlFor="em">email</label>
             <input type="email" placeholder="email" id="em" 
             value={email}
