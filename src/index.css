@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base  {
+
+*{margin: 0; padding:0;}
+
+.navhover{
+    @apply text-black 
+    
+}
+
+
+}
